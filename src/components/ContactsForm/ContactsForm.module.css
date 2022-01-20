@@ -1,0 +1,33 @@
+input {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: lightblue;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 30px;
+}
+.button:hover {
+  background-color: blue;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formName {
+  margin-right: 20px;
+  font-size: 22px;
+}
+.formNumber {
+  font-size: 22px;
+}
