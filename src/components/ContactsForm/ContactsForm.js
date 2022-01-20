@@ -44,8 +44,7 @@ const handleChange = event => {
                 <form onSubmit={handleSubmit} className={s.form}>
               <label htmlFor={nameInputId} className={s.label}>
                  <p className={s.formName}>Name </p> 
-                        Name
-                        <input
+                         <input
                             type="text"
                             name="name"
                             value={name}
